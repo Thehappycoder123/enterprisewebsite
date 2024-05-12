@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>First C code</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Enterprise Computing Website</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">C Programming</a></li>
+								<li><a href="#">Coming Soon</a></li>
+								<li><a href="#">Coming Soon</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="basicsofc1.html">
+											<h3>Basics of C</h3>
+											<p>A quick introduction to the history and significance of C. </p>
+										</a>
+									</li>
+									<li>
+										<a href="basicsofc2.html">
+											<h3>First lines of C</h3>
+											<p>In the post, you will be learning to write your first lines of C code, and how C code interacts with your machine</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Page</h3>
+											<p>Placeholder</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Page</h3>
+											<p>Placeholder</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">First lines of C</a></h2>
+										<p>In the post, you will be learning to write your first lines of C code, and how C code interacts with your machine</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">February 20th, 2024</time>
+										<a href="#" class="author"><span class="name">Johnson Tang</a>
+									</div>
+								</header>
+								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								<p><span class="image left"><img src="images/image.png" alt="C code on an old code editor with C written in the middle" /></span>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Laboratories in the early 1970s, it was actually first designed for writing operating systems for minicomputers. It was based on an early programming language called "Combined Programming Language", which was first condensed into another language called B. </p>
+								<p>C is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. Despite this, C code is still very easily readable and the language strikes a good balance between computer efficiency and human readability. This factor combined with the fact that C was designed for system programming, meant that it was a perfect fit to write UNIX, an early operating system that introduced groundbreaking features that are still used today. The UNIX operating system eventually led to the development of Linux, a versatile and open source operating system that is used in many systems today.</p>
+								<p>Furthermore, important code libraries were also built in the C, as the low level nature of the language meant vastly greater speed when running code.This contributes to C’s lasting popularity as C is still extremely relevant, being the second most popular computer programming language. </p>
+								<p>The 3rd most popular language, C++, is also a superset of C, meaning that all of C’s functionality is included with C++, with added features. The most prominent one is object oriented programming, or OOP, which allows programmers to create classes, which have a blueprint of values and behaviours, and to create objects, which are instances of classes and inherit the values and behaviours of the blueprint but often include tweaks and changes. This also means that all C code is also valid C++ code, however it does not work the other way around. </p>
+								<form id="myForm">
+									<label for="answer">Quick Quiz! What was the C programming language made for? A: Web development or B: Writing Operating Systems</label>
+									<input type="text" id="answer" name="answer" placeholder="Type your answer in a capital letter: ">
+									<input type="submit" value="Submit">
+									
+								</form>
+								<script>
+									document.getElementById('myForm').addEventListener('submit', function(event) {
+										event.preventDefault(); // Prevent the form from submitting normally
+								
+										var input = document.getElementById('answer').value;
+										var correctAnswer = 'B'; // Replace this with your correct answer
+								
+										if (input === correctAnswer) {
+											alert('Correct!');
+										} else {
+											alert('Incorrect. Try again.');
+										}
+									});
+								</script>
+								<footer>
+									<ul class="stats">
+										<li><a href="#">C Programming</a></li>
+									</ul>
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+
+					<section id="footer">
+						<!--<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul> -->
+						<p class="copyright">&copy; Johnson Tang 2024 | Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

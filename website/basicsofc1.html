@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>C Programming guide</title>
+		<title>Intro to C</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,7 +18,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Johnson Tang</a></h1>
+						<h1><a href="index.html">Enterprise Computing Website</a></h1>
 						<nav class="links">
 							<ul>
 								<li><a href="#">C Programming</a></li>
@@ -55,15 +55,15 @@
 							<section>
 								<ul class="links">
 									<li>
-										<a href="#">
+										<a href="basicsofc1.html">
 											<h3>Basics of C</h3>
 											<p>A quick introduction to the history and significance of C. </p>
 										</a>
 									</li>
 									<li>
-										<a href="#">
-											<h3>Page</h3>
-											<p>Placeholder</p>
+										<a href="basicsofc2.html">
+											<h3>First lines of C</h3>
+											<p>In the post, you will be learning to write your first lines of C code, and how C code interacts with your machine</p>
 										</a>
 									</li>
 									<li>
@@ -97,17 +97,39 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">Magna sed adipiscing</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+										<h2><a href="#">Intro to C</a></h2>
+										<p>A quick introduction to the history and significance of C. </p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<time class="published" datetime="2015-11-01">February 20th, 2024</time>
+										<a href="#" class="author"><span class="name">Johnson Tang</a>
 									</div>
 								</header>
 								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-								<p><span class="image left"><img src="images/pic07.jpg" alt="" /></span>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Labratories, it was actually first designed for writing operating systems for minicomputers. It is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. This means that it is memory efficient, making it one of the most popular programming languages in the world, 
-								despite its age. Furthermore, important libraries were also built in the C, meaning that C is still extremely relevant, second in popularity in the whole world as of 2024. The 3rd most popular language, C++, is also a superset of C, meaning that all of C’s functionality is included with C++, with added features. This also means that all C code is also valid C++ code, however it does not work the other way around. </p>
+								<p><span class="image left"><img src="images/image.png" alt="C code on an old code editor with C written in the middle" /></span>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Laboratories in the early 1970s, it was actually first designed for writing operating systems for minicomputers. It was based on an early programming language called "Combined Programming Language", which was first condensed into another language called B. </p>
+								<p>C is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. Despite this, C code is still very easily readable and the language strikes a good balance between computer efficiency and human readability. This factor combined with the fact that C was designed for system programming, meant that it was a perfect fit to write UNIX, an early operating system that introduced groundbreaking features that are still used today. The UNIX operating system eventually led to the development of Linux, a versatile and open source operating system that is used in many systems today.</p>
+								<p>Furthermore, important code libraries were also built in the C, as the low level nature of the language meant vastly greater speed when running code.This contributes to C’s lasting popularity as C is still extremely relevant, being the second most popular computer programming language. </p>
+								<p>The 3rd most popular language, C++, is also a superset of C, meaning that all of C’s functionality is included with C++, with added features. The most prominent one is object oriented programming, or OOP, which allows programmers to create classes, which have a blueprint of values and behaviours, and to create objects, which are instances of classes and inherit the values and behaviours of the blueprint but often include tweaks and changes. This also means that all C code is also valid C++ code, however it does not work the other way around. </p>
+								<form id="myForm">
+									<label for="answer">Quick Quiz! What was the C programming language made for? A: Web development or B: Writing Operating Systems</label>
+									<input type="text" id="answer" name="answer" placeholder="Type your answer in a capital letter: ">
+									<input type="submit" value="Submit">
+									
+								</form>
+								<script>
+									document.getElementById('myForm').addEventListener('submit', function(event) {
+										event.preventDefault(); // Prevent the form from submitting normally
+								
+										var input = document.getElementById('answer').value;
+										var correctAnswer = 'B'; // Replace this with your correct answer
+								
+										if (input === correctAnswer) {
+											alert('Correct!');
+										} else {
+											alert('Incorrect. Try again.');
+										}
+									});
+								</script>
 								<footer>
 									<ul class="stats">
 										<li><a href="#">C Programming</a></li>
