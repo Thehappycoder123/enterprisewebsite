@@ -69,7 +69,7 @@
 									</li>
 									<li>
 										<a href="basicsofc3.html">
-											<h3>Data Types</h3>
+											<h3>Data Types and Variables in C</h3>
 											<p>Learn about the types of ways data is stored in C. </p>
 										</a>
 									</li>
@@ -102,7 +102,7 @@
 										<p>In the post, you will be learning to write your first lines of C code, and how C code interacts with your machine</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">March 2nd, 2024</time>
+										<time class="published" datetime="2015-11-01">March 5th, 2024</time>
 										<a href="#" class="author"><span class="name">Johnson Tang</a>
 									</div>
 								</header>
@@ -143,7 +143,7 @@
 										<div class="instructions">
 											<div class="instruction-item">
 												<img src="images/macandlinux.png" alt="Mac and Linux logos" />
-												<p>For Mac and Linux users, there is a built-in C compiler, and users can just connect that to their code editor of choice.</p>
+												<p>For Mac and Linux users, there is a built-in C compiler called make, so users can just use Visual Studio Code's built in terminal to use the preinstalled compiler, called make. </p>
 											</div>
 											<div class="instruction-item">
 												<img src="images/windows_logo.png" alt="Windows logo" style="width: 18%;" />
@@ -189,7 +189,7 @@
 									are indicating that the function is not taking arguments, meaning that the main function does not need any external input to run. The curly braces 
 									encapsulate what we would like to run inside the function. The "//" is a comment, and anything after the "//" is ignored by the machine when it is compiling. 
 									Comments help developers understand and read code. The "return 0;" line is the last line of the function, and it tells the function to return the number 0 when it is done running.
-									This line is not explicitly necessary however, as the function will return 0 by default when it is done running.
+									This line is not explicitly necessary however, as the function will return 0 by default when it is done running. The next post will go more in depth about integers and strings (data types). 
 								</p>
 								<p>
 									Now that we have initialised the main function, we can write the code that we want to run. To print a string, we use the printf function.
@@ -225,6 +225,17 @@ int main(){
     }
 });
 								</script>
+								<p>
+									Now to actually run this code, save the file with the written code in it. We now have to run this
+									code through the compiler, so that we can run the code. If you are on Visual Studio code, you can 
+									install the C/C++ extension and Code Runner extension which will allow you to compile and run the code. 
+									On other code editors, you will have to compile the code through the command line. This is done by opening
+									the terminal and then directing the terminal to where we want to compile the code. The Windows command
+									"cd" changes the working directory, meaning that the terminal will be looking at the folder that we want to compile the code in.
+									To compile the code, we type "gcc c –o [program_name].exe [program_name].c". The "-o" flag is used to specify the name of the output file. 
+									After compiling the code, we can type the name of the output file that we have specified to run the code. For example, 
+									since my file is called hello.c, I will type out "gcc c -o hello.exe hello.c". 
+								</p>
 								<footer>
 									<ul class="stats">
 										<li><a href="#">C Programming</a></li>

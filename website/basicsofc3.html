@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Data Types in C</title>
@@ -69,7 +65,7 @@
 									</li>
 									<li>
 										<a href="basicsofc3.html">
-											<h3>Data Types</h3>
+											<h3>Data Types and Variables in C</h3>
 											<p>Learn about the types of ways data is stored in C. </p>
 										</a>
 									</li>
@@ -98,8 +94,8 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">First lines of C</a></h2>
-										<p>In the post, you will be learning to write your first lines of C code, and how C code interacts with your machine</p>
+										<h2><a href="#">Data Types and Variables in C</a></h2>
+										<p>This post is teaching the different forms of data that can be stored in C. </p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">March 2nd, 2024</time>
@@ -109,58 +105,31 @@
 								<p>
 									<div class="image right" style="width: 50%;">
 										<figure style="margin: 0; padding: 0;">
-											<img src="images/gcc.png" style="width: 100%; height: auto;" alt = "The GCC logo on either side of the Windows 10 logo. "/>
-											<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">The GCC logo on either side of the Windows 10 logo.</figcaption>
+											<img src="images/ASCII.png" style="width: 100%; height: auto;" alt = "The chart of ASCII codes and corresponding characters. "/>
+											<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">The chart of ASCII codes and corresponding characters. </figcaption>
 										</figure>
 									</div>
-									After understanding where C came from and why it is significant, we will get into how to start coding in the programming language. Traditionally, 
-									programmers have printed out “Hello World” as their first lines of code when learning a new language, so we will do the same. 
-									But before we can start writing C code, we must first install a code editor, like Visual Studio Code (recommended) or Sublime Text, 
-									which allow us to write code in an environment that is easy to read and write. Next, we will need to install a compiler, (check Intro to C if you don't know what this is). 
-									For this post, we will be using the GNU Compiler Collection, or GCC, which is a free compiler that is widely used in the programming community. 
-									<style>
-										.instructions {
-											display: block;
-										}
-										
-										.instruction-item {
-											display: flex;
-											align-items: start;
-											margin-bottom: 20px;
-										}
-										
-										.instruction-item img {
-											width: 30%;
-											height: auto;
-											margin-right: 20px;
-										}
-										
-										.instruction-item p {
-											width: 70%;
-										}
-										</style>
-										
-										<div class="instructions">
-											<div class="instruction-item">
-												<img src="images/macandlinux.png" alt="Mac and Linux logos" />
-												<p>For Mac and Linux users, there is a built-in C compiler, and users can just connect that to their code editor of choice.</p>
-											</div>
-											<div class="instruction-item">
-												<img src="images/windows_logo.png" alt="Windows logo" style="width: 18%;" />
-												<p>For Windows users, head to <a href="https://www.mingw-w64.org/" target="_blank">https://www.mingw-w64.org/</a> to install GCC. The process is quite complicated, and detailed instructions to install the compiler for Visual Studio Code can be found here: <a href="https://code.visualstudio.com/docs/cpp/config-mingw" target="_blank">https://code.visualstudio.com/docs/cpp/config-mingw</a>.</p>
-											</div>
-										</div>
-								</p>	
+									After learning how to write our first lines of C code, we can now learn about the different types of data that can be stored in C. In C, 
+									developers are able to store values inside variables. Variables are basically a container which store values. These values can then later be used
+									in code. In the last post, we have been introduced to integers and strings, but there are more data types in C. In this post, we will be going through
+									a few more essential data types in C. These include floats, doubles, characters and arrays. But before we are able to understand how these data types 
+									are different, we must understand how C stores data to the computer. 
+								</p>
 								<p>
-									Once we have completed setting up our code editor and compiler, we can start writing our first C file. 
-									To start, we have to create a C file. I will be doing this with Visual Studio Code, but the process is similar for other code editors.
-									First, open Visual Studio Code, and click on the “File” tab on the top left corner of the screen. 
-									We then click on “New File”, and a new tab will open up. We then save the file by pressing file, save as, and then typing in the name of the file, with a .c extension.
-									For this example, I will be naming the file “hello.c”.
+									Firstly, C stores data into a computer's memory. Memory is where a computer stores data that is going to be handled in the near future. When a program
+									is run, the computer allocates memory to the program, and the data needed for the program is stored in the memory. Computers run of a binary system,
+									meaning that they operate with a base 2 system. All data stored in computers is done with just ones and zeros. How you might ask? For example, if the 
+									computer would like to store a number, they are able to do that with the binary counting system. The decimal system, which we use to count, 
+									has digits increasing in base 10. This means that each digit is 10 times the value of the digit to its right. The binary system is similar, but instead of
+									10 times more the value, it is 2 times the value. For example, if we would like to write 7 in binary, we would write 111. This is as the first digit on the right is 
+									worth one, the middle digit is worth two and the left digit is worth four. One, two and four add up to seven. This is how computers store numbers, but how do they store 
+									characters? This is where the ASCII comes in. ASCII stands for American Standard Code for Information Interchange. ASCII is a set of codes that allow computers to store characters 
+									and represent text. Each character has a corresponding ASCII code, and the computer use ASCII to represent characters by using the binary numbers that correspond with the ASCII code.
+
 								</p>
 								<figure style="margin: 0; padding: 0;">
-									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/tutorial1.png" alt="" style="width: 70%; height: auto;" alt = "Visual Studio Code with the hello.c file loaded"/></span>
-									<figcaption style="font-size: 0.8em; margin-top: -20px; padding: 0; text-align: center; margin-bottom: 20px;">Visual Studio Code should look something like this so far.</figcaption>
+									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/coolbinary.png" alt="" style="width: 45%; height: auto;" alt = "Futuristic graphic with skyscrapers in the background, a sphere of binary in the middle and computers with binary on the screens. "/></span>
+									<figcaption style="font-size: 0.8em; margin-top: -20px; padding: 0; text-align: center; margin-bottom: 20px;">Almost all modern computer and devices utilise binary. </figcaption>
 								</figure>
 								<p>
 									To use C to print out a string (a sequence or "string" of characters) we must first include the stdio header file, as the printf function exists in the header file. 
