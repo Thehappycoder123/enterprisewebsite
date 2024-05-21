@@ -33,6 +33,7 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vpnanswers.com%2Fconnect-t
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AC_Programming_Language.svg&psig=AOvVaw0NhRdXGMfvi72np5x56iCt&ust=1715775191840000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCi2OqOjYYDFQAAAAAdAAAAABAE
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fmicrosoft.github.io%2Fmakecode-csp%2Funit-6%2Fday-12%2Fascii-chart%2F&psig=AOvVaw2RwlushrNgM-RTjvblFgM1&ust=1715867994955000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICCn8Toj4YDFQAAAAAdAAAAABAp
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.convertbinary.com%2Fblog%2Fwhy-computers-use-binary%2F&psig=AOvVaw0uOf4WPu5UHjeTp8im9_Bd&ust=1715868296210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj4s9bpj4YDFQAAAAAdAAAAABAb
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.convertbinary.com%2Fblog%2Fwhy-computers-use-binary%2F&psig=AOvVaw0uOf4WPu5UHjeTp8im9_Bd&ust=1715868296210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj4s9bpj4YDFQAAAAAdAAAAABAb
 
 Information:
 https://www.britannica.com/technology/C-computer-programming-language
