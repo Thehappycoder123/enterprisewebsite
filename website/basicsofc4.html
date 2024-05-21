@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Data Types in C</title>
+		<title>Arrays in C</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -70,7 +70,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="basicsofc4.html">
+										<a href="#">
 											<h3>Arrays in C</h3>
 											<p>In this post you will learn about arrays in the C programming language. </p>
 										</a>
@@ -92,44 +92,34 @@
 
 						<!-- Post -->
 							<article class="post">
-								<header>
+								<header style="margin-bottom: 0.5em;">
 									<div class="title">
-										<h2><a href="#">Data Types and Variables in C</a></h2>
-										<p>This post is teaching the different forms of data that can be stored in C. </p>
+										<h2><a href="#">Arrays in C</a></h2>
+										<p>This post will teach you about arrays in C, how they are used and why they are important. </p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">March 5th, 2024</time>
+										<time class="published" datetime="2015-11-01">March 8th, 2024</time>
 										<a href="#" class="author"><span class="name">Johnson Tang</a>
 									</div>
 								</header>
-								<p>
-									<div class="image right" style="width: 50%;">
-										<figure style="margin: 0; padding: 0;">
-											<img src="images/ASCII.png" style="width: 100%; height: auto;" alt = "The chart of ASCII codes and corresponding characters. "/>
-											<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">The chart of ASCII codes and corresponding characters. </figcaption>
-										</figure>
-									</div>
-									After learning how to write our first lines of C code, we can now learn about the different types of data that can be stored in C. In C, 
-									developers are able to store values inside variables. Variables are basically a container which store values. These values can then later be used
-									in code. In the last post, we have been introduced to integers and strings, but there are more data types in C. In this post, we will be going through
-									a few more essential data types in C. These include floats, doubles, characters and arrays. But before we are able to understand how these data types 
-									are different, we must understand how C stores data to the computer. 
-								</p>
-								<p>
-									Firstly, C stores data into a computer's memory. Memory is where a computer stores data that is going to be handled in the near future. When a program
-									is run, the computer allocates memory to the program, and the data needed for the program is stored in the memory. Computers run of a binary system,
-									meaning that they operate with a base 2 system. All data stored in computers is done with just ones and zeros. How you might ask? For example, if the 
-									computer would like to store a number, they are able to do that with the binary counting system. The decimal system, which we use to count, 
-									has digits increasing in base 10. This means that each digit is 10 times the value of the digit to its right. The binary system is similar, but instead of
-									10 times more the value, it is 2 times the value. For example, if we would like to write 7 in binary, we would write 111. This is as the first digit on the right is 
-									worth one, the middle digit is worth two and the left digit is worth four. One, two and four add up to seven. This is how computers store numbers, but how do they store 
-									characters? This is where the ASCII comes in. ASCII stands for American Standard Code for Information Interchange. ASCII is a set of codes that allow computers to store characters 
-									and represent text. Each character has a corresponding ASCII code, and the computer use ASCII to represent characters by using the binary numbers that correspond with the ASCII code.
-								</p>
+								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								<p>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Laboratories in the early 1970s, it was actually first designed for writing operating systems for minicomputers. It was based on an early programming language called "Combined Programming Language", which was first condensed into another language called B. </p>
+								<div class="image left" style="width: 50%;">
+									<figure style="margin: 0; padding: 0;">
+										<img src="images/c_code.png" style="width: 100%; height: auto;" alt = "A visual depiction of the compilation process of C code."/>
+										<figcaption style="font-size: 0.8em; margin: 0; padding: 0;">C code on an old code editor with C written in the middle.</figcaption>
+									</figure>
+								</div>
+								<p>C is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. Firstly, the code is passed through a preprocessor, which removes comments. These are lines of codes that developers put inside their code in order for code to be easier to understand and more readable. Next, the preprocessor looks for any file inclusion instructions, meaning that it will look for instructions in the code that ask for the contents of other files to be included. This is to import functions (a chunk of code is stored for regular reuse) written by developers that you can use in your code. Following, a compiler turns the C code into Assembly, an even older language and an even lower-level language. The compiler also optimises the code, to make it run as smoothly and efficiently as possible. Once this is complete, the assembler turns the assembly code into 1s and 0s readable by the computer, called machine code. Finally a linker links everything into one executable file. Although it seems like there are already a lot of steps from human code to machine code, it is actually very few steps in terms of programming languages. Languages like Python and Javascript require many more steps to be executable by the computer. </p>
 								<figure style="margin: 0; padding: 0;">
-									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/coolbinary.png" alt="" style="width: 45%; height: auto;" alt = "Futuristic graphic with skyscrapers in the background, a sphere of binary in the middle and computers with binary on the screens. "/></span>
-									<figcaption style="font-size: 0.8em; margin-top: -20px; padding: 0; text-align: center; margin-bottom: 20px;">Almost all modern computer and devices utilise binary. </figcaption>
+									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/compilingdiagram.png" alt="" style="width: 30%; height: auto;" alt = "A visual depiction of the compilation process of C code."/></span>
+									<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">A visual depiction of the compilation process of C code.</figcaption>
 								</figure>
+								<p>
+									Despite this, C code is still very easily readable and the language strikes a good balance between computer efficiency and human readability. 
+									This factor combined with the fact that C was designed for system programming, meant that it was a perfect fit to write UNIX, an early operating system 
+									that introduced groundbreaking features that are still used today. The UNIX operating system eventually
+									 led to the development of Linux, a versatile and open source operating system that is used in many systems today.</p>
 								<p>
 									Now how would a computer know if you are trying to just store a number or a character? 
 									In C, we must specify what sort of data we want to store in memory. This is where data types come in. 
