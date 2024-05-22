@@ -71,8 +71,8 @@
 									</li>
 									<li>
 										<a href="basicsofc4.html">
-											<h3>Arrays in C</h3>
-											<p>In this post you will learn about arrays in the C programming language. </p>
+											<h3>Operaters in C</h3>
+											<p>In this post you will learn about operaters in the C programming language. </p>
 										</a>
 									</li>
 								</ul>
@@ -141,7 +141,9 @@
 									it is assigned 64 bits in memory or 8 bytes. This means that it is able to store a number from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
 									Next, a float is a number with a decimal point. It is assigned 32 bits in memory or 4 bytes. However, if developers
 									require more accurate decimals, they are able to utilise doubles, which allocates double the amount of memory. Characters store a single character, and 
-									strings store a sequence of characters. 
+									strings store a sequence of characters. All these variables can be re-defined after they are first defined later in the
+									code, however if a developer would like to make this code unchangable after it is declared, they can use the const keyword
+									in front of declaring the variable. 
 								</p>
 								<p>
 									To store these forms of data, we must put the data type before the variable name. For example, 
@@ -152,6 +154,7 @@ int main(){
     float variable3 = 3.14; // variable3 will be storing a float
     double variable4 = 3.14159265359; // variable4 will be storing a double
     char variable5 = 'a'; // variable5 will be storing a character
+	const int variable6 = 5; // variable6 will be storing an integer, but it cannot be changed
 }</code></pre>
 								</p>
 								<p>
