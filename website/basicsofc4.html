@@ -70,9 +70,9 @@
 										</a>
 									</li>
 									<li>
-										<a href="#">
-											<h3>Arrays in C</h3>
-											<p>In this post you will learn about arrays in the C programming language. </p>
+										<a href="basicsofc4.html">
+											<h3>Operaters in C</h3>
+											<p>In this post you will learn about operaters in the C programming language. </p>
 										</a>
 									</li>
 								</ul>
@@ -94,8 +94,8 @@
 							<article class="post">
 								<header style="margin-bottom: 0.5em;">
 									<div class="title">
-										<h2><a href="#">Arrays in C</a></h2>
-										<p>This post will teach you about arrays in C, how they are used and why they are important. </p>
+										<h2><a href="#">Operaters in C</a></h2>
+										<p>This post will teach you about operaters in C, how they are used and why they are important. </p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">March 8th, 2024</time>
@@ -103,14 +103,101 @@
 									</div>
 								</header>
 								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-								<p>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Laboratories in the early 1970s, it was actually first designed for writing operating systems for minicomputers. It was based on an early programming language called "Combined Programming Language", which was first condensed into another language called B. </p>
-								<div class="image left" style="width: 50%;">
-									<figure style="margin: 0; padding: 0;">
-										<img src="images/c_code.png" style="width: 100%; height: auto;" alt = "A visual depiction of the compilation process of C code."/>
-										<figcaption style="font-size: 0.8em; margin: 0; padding: 0;">C code on an old code editor with C written in the middle.</figcaption>
-									</figure>
+								<p>
+									Operators are symbols that tell the computer to perform operations on data. There are many types of operators in C, 
+									however, they are mostly quite intuitive. Firstly, there are arithmetic operators. These are the operators that you would
+									use to perform arithmetic operations. Below is a table of the arithmetic operators in C.
+								</p>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Operator</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>+</td>
+												<td>Adds ints, floats, doubles and longs</td>
+											</tr>
+											<tr>
+												<td>-</td>
+												<td>Minuses ints, floats, doubles and longs</td>
+											</tr>
+											<tr>
+												<td>*</td>
+												<td>Multiplies ints, floats, doubles and longs</td>
+											</tr>
+											<tr>
+												<td>/</td>
+												<td>Divides ints, floats, double and longs</td>
+											</tr>
+											<tr>
+												<td>%</td>
+												<td>
+													Named modulo operator, outputs remainder of division of two numbers. (5 % 2 = 1)
+												</td>
+											</tr>
+											<tr>
+												<td>++</td>
+												<td>
+													This operator increments the value of a variable by 1.
+												</td>
+											</tr>
+											<tr>
+												<td>--</td>
+												<td>
+													This operator decrements the value of a variable by 1.
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
-								<p>C is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. Firstly, the code is passed through a preprocessor, which removes comments. These are lines of codes that developers put inside their code in order for code to be easier to understand and more readable. Next, the preprocessor looks for any file inclusion instructions, meaning that it will look for instructions in the code that ask for the contents of other files to be included. This is to import functions (a chunk of code is stored for regular reuse) written by developers that you can use in your code. Following, a compiler turns the C code into Assembly, an even older language and an even lower-level language. The compiler also optimises the code, to make it run as smoothly and efficiently as possible. Once this is complete, the assembler turns the assembly code into 1s and 0s readable by the computer, called machine code. Finally a linker links everything into one executable file. Although it seems like there are already a lot of steps from human code to machine code, it is actually very few steps in terms of programming languages. Languages like Python and Javascript require many more steps to be executable by the computer. </p>
+								<p>
+									Now we have learnt the arithmetic operators, we can move on to the relational operators. These operators are used to compare two values. 
+									These values return Booleans, meaning true (1) or false (0). These help us find comparisons and then allows us to make decisions based on these comparisons.
+								</p>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Operator</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>==</td>
+												<td>Checks if values are equal</td>
+											</tr>
+											<tr>
+												<td>!=</td>
+												<td>Checks if values are NOT equal</td>
+											</tr>
+											<tr>
+												<td>></td>
+												<td>Checks if first value is greater than the second (9>3)</td>
+											</tr>
+											<tr>
+												<td>&lt;</td>
+												<td>Checks if first value is lesser than the</td>
+											</tr>
+											<tr>
+												<td>%</td>
+												<td>
+													Named modulo operator, outputs remainder of division of two numbers. (5 % 2 = 1)
+												</td>
+											</tr>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<p>
+									The last two operators have variants where you can add an equal symbol (=) after the operater to check for greater than/lesser than OR equal to. This
+									is important to note as if the two values are equal the comparison operation will return true. Next there are assignment operaters. 
+									These operators are used to assign values to variables.
+								</p>
 								<figure style="margin: 0; padding: 0;">
 									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/compilingdiagram.png" alt="" style="width: 30%; height: auto;" alt = "A visual depiction of the compilation process of C code."/></span>
 									<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">A visual depiction of the compilation process of C code.</figcaption>
