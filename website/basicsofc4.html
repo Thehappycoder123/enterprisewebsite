@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Arrays in C</title>
+		<title>Operators in C</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -198,6 +198,71 @@
 									is important to note as if the two values are equal the comparison operation will return true. Next there are assignment operaters. 
 									These operators are used to assign values to variables.
 								</p>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Operator</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>+=</td>
+												<td>Adds a specified number to the variable (x+=7 is the same as x = x + 7)</td>
+											</tr>
+											<tr>
+												<td>-=</td>
+												<td>Minuses a specified number to the variable (x-=5 is the same as x = x - 5)</td>
+											</tr>
+											<tr>
+												<td>*=</td>
+												<td>Multiplies a specified number to the variable (x*=2 is the same as x = x * 2)</td>
+											</tr>
+											<tr>
+												<td>/=</td>
+												<td>Divids a specified number to the variable (x/=4 is the same as x = x/4)</td>
+											</tr>
+											<tr>
+												<td>%=</td>
+												<td>
+													Applies modulo with a specified number to a variable (x%=3 is the same as x = x % 3)
+												</td>
+											</tr>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<p>
+									There are a few more of these assignment operators, however they are a little bit more advanced
+									and may be difficult for beginners to understand. If you are curious, you can check out 
+									<a href = "https://www.w3schools.com/c/c_operators.php">this link</a> from w3schools, where you can try 
+									these operators out. There are also logical operators. These operators are used to find the logic between two values. 
+								</p>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Operator</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>&&</td>
+												<td>Logical AND operator (returns 1 (true) if both values are true e.g. if x = 3, x > 1 %% x &lt; 5, this would return true)</td>
+											</tr>
+											<tr>
+												<td>||</td>
+												<td>Logical OR operator (returns 1 (true) if ONE value are true e.g. if x = 3, x &lt; 1 || x &lt; 5, this would return true)</td>
+											</tr>
+											<tr>
+												<td>!</td>
+												<td>Logical NOT operator (returns 1 (true) if logic is not true e.g. x = 3, !(x = 3) would return true as x does equal c, however the logic is reversed from the operator</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 								<figure style="margin: 0; padding: 0;">
 									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/compilingdiagram.png" alt="" style="width: 30%; height: auto;" alt = "A visual depiction of the compilation process of C code."/></span>
 									<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">A visual depiction of the compilation process of C code.</figcaption>
@@ -220,60 +285,7 @@
 									require more accurate decimals, they are able to utilise doubles, which allocates double the amount of memory. Characters store a single character, and 
 									strings store a sequence of characters. 
 								</p>
-								<p>
-									To store these forms of data, we must put the data type before the variable name. For example, 
-									<pre><code>#include &lt;stdio.h&gt;
-int main(){
-    int variable1 = 5; // variable1 will be storing an integer
-    long variable2 = 922337203685477580; // variable2 will be storing a long integer
-    float variable3 = 3.14; // variable3 will be storing a float
-    double variable4 = 3.14159265359; // variable4 will be storing a double
-    char variable5 = 'a'; // variable5 will be storing a character
-}</code></pre>
-								</p>
-								<p>
-									Notice how we could store strings in a variable? This is due to C's lack of the string data type. To store strings inside a variable, there is a 
-									workaround. This involves arrays, which are a sequenced of variables. However, arrays are a topic for another post. 
-								</p>
-								<p>
-									
-								</p>
-								<label>Quick Quiz! What would I write if I would like to store a decimal number with 2 decimal places in a variable?</label>
-								<div>
-									<input type="checkbox" id="webDevelopment" name="answer" value="A">
-									<label for="webDevelopment">A: float variable = 3.14;</label>
-								</div>
-								<div>
-									<input type="checkbox" id="osWriting" name="answer" value="B">
-									<label for="osWriting">B: int variable = 3.14;</label>
-								</div>
-								<script>
-									var checkboxes = document.getElementsByName('answer');
-								
-									for (var i = 0; i < checkboxes.length; i++) {
-										checkboxes[i].addEventListener('change', function(event) {
-											if (this.checked) {
-												for (var j = 0; j < checkboxes.length; j++) {
-													if (checkboxes[j] !== this) {
-														checkboxes[j].disabled = true;
-													}
-												}
-								
-												setTimeout(function() {
-													if (event.target.value === 'A') { // Check for the value of the checkbox
-														alert('Correct!');
-													} else {
-														alert('Incorrect. Try again.');
-													}
-												}, 100);
-											}
-										});
-									}
-								</script>
-								<footer>
-									<ul class="stats">
-										<li><a href="#">C Programming</a></li>
-									</ul>
+
 								</footer>
 							</article>
 
