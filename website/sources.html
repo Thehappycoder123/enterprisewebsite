@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Intro to C</title>
+		<title>Sources</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,12 +18,13 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Enterprise Computing Website</a></h1>
+						<h1><a href="index.html">A Lesson A Day Coding!</a></h1>
 						<nav class="links">
 							<ul>
 								<li><a href="index.html">Home</a></li>
+
+								<li><a href="sources.html">Sources</a></li>
 								<!--
-								<li><a href="#">Coming Soon</a></li>
 								<li><a href="#">Coming Soon</a></li>
 							</ul>
 						-->
@@ -86,15 +87,15 @@
 											<p>In this post you will learn about conditionals in the C programming language. </p>
 										</a>
 									</li>
+									<li>
+										<a href="basicsofc6.html">
+											<h3>Arrays in C</h3>
+											<p>In this post you will learn about Arrays in the C programming language. </p>
+										</a>
+									</li>
 								</ul>
 							</section>
 
-						<!-- Actions -->
-							<section>
-								<ul class="actions stacked">
-									<li><a href="#" class="button large fit">Log In</a></li>
-								</ul>
-							</section>
 
 					</section>
 
@@ -105,8 +106,8 @@
 							<article class="post">
 								<header style="margin-bottom: 0.5em;">
 									<div class="title">
-										<h2><a href="#">Intro to C</a></h2>
-										<p>A quick introduction to the history and significance of C. </p>
+										<h2><a href="#">Sources</a></h2>
+										<p>Where images and information came from. </p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">20th February, 2024</time>
@@ -114,59 +115,32 @@
 									</div>
 								</header> 
 								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-								<p>The computer programming language C was one of the earliest programming languages created. Developed by American computer scientist Dennis M. Ritchie at Bell Laboratories in the early 1970s, it was actually first designed for writing operating systems for minicomputers. It was based on an early programming language called "Combined Programming Language", which was first condensed into another language called B. </p>
-								<div class="image left" style="width: 50%;">
-									<figure style="margin: 0; padding: 0;">
-										<img src="images/c_code.png" style="width: 100%; height: auto;" alt = "A visual depiction of the compilation process of C code."/>
-										<figcaption style="font-size: 0.8em; margin: 0; padding: 0;">C code on an old code editor with C written in the middle.</figcaption>
-									</figure>
-								</div>
-								<p>C is considered a low-level programming language, meaning that the process of turning C code written by humans into machine code readable and executable by computers is very short, requiring little steps. Firstly, the code is passed through a preprocessor, which removes comments. These are lines of codes that developers put inside their code in order for code to be easier to understand and more readable. Next, the preprocessor looks for any file inclusion instructions, meaning that it will look for instructions in the code that ask for the contents of other files to be included. This is to import functions (a chunk of code is stored for regular reuse) written by developers that you can use in your code. Following, a compiler turns the C code into Assembly, an even older language and an even lower-level language. The compiler also optimises the code, to make it run as smoothly and efficiently as possible. Once this is complete, the assembler turns the assembly code into 1s and 0s readable by the computer, called machine code. Finally a linker links everything into one executable file. Although it seems like there are already a lot of steps from human code to machine code, it is actually very few steps in terms of programming languages. Languages like Python and Javascript require many more steps to be executable by the computer. </p>
-								<figure style="margin: 0; padding: 0;">
-									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/compilingdiagram.png" alt="" style="width: 30%; height: auto;" alt = "A visual depiction of the compilation process of C code."/></span>
-									<figcaption style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">A visual depiction of the compilation process of C code.</figcaption>
-								</figure>
-								<p>Despite this, C code is still very easily readable and the language strikes a good balance between computer efficiency and human readability. This factor combined with the fact that C was designed for system programming, meant that it was a perfect fit to write UNIX, an early operating system that introduced groundbreaking features that are still used today. The UNIX operating system eventually led to the development of Linux, a versatile and open source operating system that is used in many systems today.</p>
-								<figure style="margin: 0; padding: 0;">
-									<span class="image fit" style="display: flex; justify-content: center;"><img src="images/linuxlogo.png" alt="" style="width: 30%; height: auto;" alt = "A colourful photo with the Linux logo in the middle with other computer-science related images in the background."/></span>
-									<figcaption style="font-size: 0.8em; margin-top: -20px; padding: 0; text-align: center; margin-bottom: 20px;">A colourful photo with the Linux logo in the middle with other computer-science related images in the background.</figcaption>
-								</figure>
-							
-								<p>Furthermore, important code libraries were also built in the C, as the low level nature of the language meant vastly greater speed when running code.This contributes to C’s lasting popularity as C is still extremely relevant, being the second most popular computer programming language. </p>
-								<p>The 3rd most popular language, C++, is also a superset of C, meaning that all of C’s functionality is included with C++, with added features. The most prominent one is object oriented programming, or OOP, which allows programmers to create classes, which have a blueprint of values and behaviours, and to create objects, which are instances of classes and inherit the values and behaviours of the blueprint but often include tweaks and changes. This also means that all C code is also valid C++ code, however it does not work the other way around. </p>
-								<label>Quick Quiz! What was C originally designed for?</label>
-								<div>
-									<input type="checkbox" id="webDevelopment" name="answer" value="A">
-									<label for="webDevelopment">A: Web development</label>
-								</div>
-								<div>
-									<input type="checkbox" id="osWriting" name="answer" value="B">
-									<label for="osWriting">B: Writing Operating Systems</label>
-								</div>
-								
-								<script>
-									var checkboxes = document.getElementsByName('answer');
-								
-									for (var i = 0; i < checkboxes.length; i++) {
-										checkboxes[i].addEventListener('change', function(event) {
-											if (this.checked) {
-												for (var j = 0; j < checkboxes.length; j++) {
-													if (checkboxes[j] !== this) {
-														checkboxes[j].disabled = true;
-													}
-												}
-								
-												setTimeout(function() {
-													if (event.target.id === 'osWriting') {
-														alert('Correct!');
-													} else {
-														alert('Incorrect. Try again.');
-													}
-												}, 100);
-											}
-										});
-									}
-								</script>
+								<h3>Images:</h3>
+<p>
+<a href="https://www.boardinfinity.com/blog/content/images/2023/02/C.png">https://www.boardinfinity.com/blog/content/images/2023/02/C.png</a><br>
+<a href="https://miro.medium.com/v2/resize:fit:640/format:webp/1*wHKe6W4opLmk6pb7sxZz6w.png">https://miro.medium.com/v2/resize:fit:640/format:webp/1*wHKe6W4opLmk6pb7sxZz6w.png</a><br>
+<a href="https://media.licdn.com/dms/image/D4D12AQGxLt3lZb-3FA/article-cover_image-shrink_600_2000/0/1693882752310?e=2147483647&v=beta&t=oIqV0XAIi0Wqb8-HAFjyPP8310CE2rBd5paDKSryqcY">https://media.licdn.com/dms/image/D4D12AQGxLt3lZb-3FA/article-cover_image-shrink_600_2000/0/1693882752310?e=2147483647&v=beta&t=oIqV0XAIi0Wqb8-HAFjyPP8310CE2rBd5paDKSryqcY</a><br>
+<a href="https://terminalroot.com/assets/img/windows/mingw/mingw.jpg">https://terminalroot.com/assets/img/windows/mingw/mingw.jpg</a><br>
+<a href="https://www.adslzone.net/app/uploads-adslzone.net/2019/07/logo-inicio-windows-10.jpg?x=480&y=375&quality=40">https://www.adslzone.net/app/uploads-adslzone.net/2019/07/logo-inicio-windows-10.jpg?x=480&y=375&quality=40</a><br>
+<a href="https://www.vpnanswers.com/wp-content/uploads/2015/02/Connect-to-Linux-server-from-Mac.png">https://www.vpnanswers.com/wp-content/uploads/2015/02/Connect-to-Linux-server-from-Mac.png</a><br>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png?20201031132917">https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png?20201031132917</a><br>
+<a href="https://microsoft.github.io/makecode-csp/static/010b16b23ea4e9d9474b1d6bb4969a52/518fe/ascii-table.jpg">https://microsoft.github.io/makecode-csp/static/010b16b23ea4e9d9474b1d6bb4969a52/518fe/ascii-table.jpg</a><br>
+<a href="https://www.convertbinary.com/wp-content/uploads/monitor-1307227_1920-1024x723.jpg">https://www.convertbinary.com/wp-content/uploads/monitor-1307227_1920-1024x723.jpg</a><br>
+<a href="https://iq.opengenus.org/content/images/2019/08/decision-making-c-1.png">https://iq.opengenus.org/content/images/2019/08/decision-making-c-1.png</a><br>
+<a href="https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png">https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png</a>
+</p>
+
+<h3>Information:</h3>
+<a href="https://www.britannica.com/technology/C-computer-programming-language">https://www.britannica.com/technology/C-computer-programming-language</a><br>
+<a href="http://www.geekswithgeeks.com/c-programming/c-programming-history-features">http://www.geekswithgeeks.com/c-programming/c-programming-history-features</a><br>
+<a href="https://www.educative.io/blog/object-oriented-programming">https://www.educative.io/blog/object-oriented-programming</a><br>
+<a href="https://www.codecademy.com/resources/blog/object-oriented-programming/">https://www.codecademy.com/resources/blog/object-oriented-programming/</a><br>
+<a href="https://hackr.io/blog/difference-between-c-and-cplusplus">https://hackr.io/blog/difference-between-c-and-cplusplus</a><br>
+<a href="https://medium.com/@isaac_70614/how-c-source-code-becomes-an-executable-program-f2e00ecf5c5c">https://medium.com/@isaac_70614/how-c-source-code-becomes-an-executable-program-f2e00ecf5c5c</a><br>
+<a href="https://code.visualstudio.com/docs/cpp/config-mingw">https://code.visualstudio.com/docs/cpp/config-mingw</a><br>
+<a href="https://www.wikihow.com/Compile-a-C-Program-Using-the-GNU-Compiler-(GCC)">https://www.wikihow.com/Compile-a-C-Program-Using-the-GNU-Compiler-(GCC)</a><br>
+<a href="https://cs50.harvard.edu/x/2024/">https://cs50.harvard.edu/x/2024/</a><br>
+<a href="https://w3schools.com/">https://w3schools.com/</a>
 								<footer>
 									<ul class="stats">
 										<li><a href="#">C Programming</a></li>

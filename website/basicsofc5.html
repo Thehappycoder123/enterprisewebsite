@@ -22,6 +22,7 @@
 						<nav class="links">
 							<ul>
 								<li><a href="index.html">Home</a></li>
+								<li><a href="sources.html">Sources</a></li>
 								<!--
 								<li><a href="#">Coming Soon</a></li>
 								<li><a href="#">Coming Soon</a></li>
@@ -86,13 +87,12 @@
 											<p>In this post you will learn about conditionals in the C programming language. </p>
 										</a>
 									</li>
-								</ul>
-							</section>
-
-						<!-- Actions -->
-							<section>
-								<ul class="actions stacked">
-									<li><a href="#" class="button large fit">Log In</a></li>
+									<li>
+										<a href="basicsofc6.html">
+											<h3>Arrays in C</h3>
+											<p>In this post you will learn about Arrays in the C programming language. </p>
+										</a>
+									</li>
 								</ul>
 							</section>
 
@@ -169,8 +169,21 @@ int main(){
 }</code></pre>
 								</p>
 								<p>
-									As we have learnt previously, the ++ operator is used to increment a variable by 1. So in this loop, the variable x is incremented until x is equal to 5, 
-									as 5 is not less than 5, so the loop will stop. Now that you have learnt how to write conditionals in C, there are many more opportunities for interesting code to be made!
+									After this, we have the for loop. The for loop is used to run code a specific amount of times. This is important as if a developer would like to run
+									a portion of their code many times, but a specific amount of times, they can use a for loop. To write a for loop, we can write:
+									<pre><code>#include &lt;stdio.h&gt;f
+int main(){
+    for (int i = 0; i &lt; 5; i++){
+        printf("I want this to print 5 times!");
+    }
+}</code></pre>
+								</p>
+								<p>
+									The structure of this loop may be a little more complicated so let us break it down. Firstly, we declare that we are using a for loop, and then we 
+									put in brackets to declare the conditionals. To start, we can declare a counter variable, which will count up every time the loop runs. This is 
+									indicated by the section ("int i = 0;"). Next, we have the condition that the loop will run until the counter is no longer less than 5. After, i++ is 
+									simply telling the computer to add 1 to the counter every time the loop runs. Now that you have been introduced to conditionals, there are a plethora of 
+									possibilities. 
 								</p>
 								<footer>
 									<ul class="stats">
