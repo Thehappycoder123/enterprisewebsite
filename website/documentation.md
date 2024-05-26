@@ -23,17 +23,13 @@ This website is able to relate to the trend of blog posts that was quite common 
 
 ## Sources
 Images:
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boardinfinity.com%2Fblog%2Fall-about%2F&psig=AOvVaw358ciqU_FPdOb41Z6mF8RN&ust=1715395291284000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPi7oMyHgoYDFQAAAAAdAAAAABAR
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40laura.derohan%2Fcompiling-c-files-with-gcc-step-by-step-8e78318052&psig=AOvVaw0WzpoDFMthUXBQQZbuI89Y&ust=1715686979011000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDMypjGioYDFQAAAAAdAAAAABAS
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fwhy-linux-most-popular-operating-system-prajwal-jadhav&psig=AOvVaw3HEGAU2SCIlQaCknB10C3U&ust=1715687799732000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJi2m6LJioYDFQAAAAAdAAAAABAE
-https://www.google.com/imgres?q=mingw&imgurl=https%3A%2F%2Fterminalroot.com%2Fassets%2Fimg%2Fwindows%2Fmingw%2Fmingw.jpg&imgrefurl=https%3A%2F%2Fterminalroot.com%2Fhow-to-install-gcc-gpp-mingw-on-windows%2F&docid=sv64NBNoD1kX-M&tbnid=rRXhKvvWC-69BM&vet=12ahUKEwisv7b58YuGAxX1ma8BHZd3CgEQM3oECCAQAA..i&w=800&h=450&hcb=2&ved=2ahUKEwisv7b58YuGAxX1ma8BHZd3CgEQM3oECCAQAA
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.adslzone.net%2Fapp%2Fuploads-adslzone.net%2F2019%2F07%2Flogo-inicio-windows-10.jpg%3Fx%3D480%26y%3D375%26quality%3D40&tbnid=l1Csuo3dE9ik7M&vet=10CBYQxiAoCGoXChMIuMvM-5eMhgMVAAAAAB0AAAAAEAY..i&imgrefurl=https%3A%2F%2Fwww.adslzone.net%2F2019%2F09%2F04%2Fwindows-10-nuevos-iconos-fluent-design%2F&docid=c4DdBFhk7J0bfM&w=480&h=375&itg=1&q=windows%20logo&ved=0CBYQxiAoCGoXChMIuMvM-5eMhgMVAAAAAB0AAAAAEAY
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vpnanswers.com%2Fconnect-to-linux-server-from-mac%2F&psig=AOvVaw0ANK0g8jQqFgwENR5TznrZ&ust=1715743700882000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjJ68OZjIYDFQAAAAAdAAAAABAE
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AC_Programming_Language.svg&psig=AOvVaw0NhRdXGMfvi72np5x56iCt&ust=1715775191840000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCi2OqOjYYDFQAAAAAdAAAAABAE
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fmicrosoft.github.io%2Fmakecode-csp%2Funit-6%2Fday-12%2Fascii-chart%2F&psig=AOvVaw2RwlushrNgM-RTjvblFgM1&ust=1715867994955000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICCn8Toj4YDFQAAAAAdAAAAABAp
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.convertbinary.com%2Fblog%2Fwhy-computers-use-binary%2F&psig=AOvVaw0uOf4WPu5UHjeTp8im9_Bd&ust=1715868296210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj4s9bpj4YDFQAAAAAdAAAAABAb
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.convertbinary.com%2Fblog%2Fwhy-computers-use-binary%2F&psig=AOvVaw0uOf4WPu5UHjeTp8im9_Bd&ust=1715868296210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj4s9bpj4YDFQAAAAAdAAAAABAb
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fiq.opengenus.org%2Fif-else-if-in-c%2F&psig=AOvVaw3wYYH5iH_Hpm73S15fWf6P&ust=1716723802262000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDMvNXcqIYDFQAAAAAdAAAAABAb
+https://www.boardinfinity.com/blog/content/images/2023/02/C.png https://miro.medium.com/v2/resize:fit:640/format:webp/1*wHKe6W4opLmk6pb7sxZz6w.png 
+https://media.licdn.com/dms/image/D4D12AQGxLt3lZb-3FA/article-cover_image-shrink_600_2000/0/1693882752310?e=2147483647&v=beta&t=oIqV0XAIi0Wqb8-HAFjyPP8310CE2rBd5paDKSryqcY 
+https://terminalroot.com/assets/img/windows/mingw/mingw.jpg 
+https://www.adslzone.net/app/uploads-adslzone.net/2019/07/logo-inicio-windows-10.jpg?x=480&y=375&quality=40 https://www.vpnanswers.com/wp-content/uploads/2015/02/Connect-to-Linux-server-from-Mac.png 
+https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png?20201031132917 
+https://microsoft.github.io/makecode-csp/static/010b16b23ea4e9d9474b1d6bb4969a52/518fe/ascii-table.jpg https://www.convertbinary.com/wp-content/uploads/monitor-1307227_1920-1024x723.jpg https://iq.opengenus.org/content/images/2019/08/decision-making-c-1.png 
+https://media.geeksforgeeks.org/wp-content/uploads/20230302091959/Arrays-in-C.png
 
 Information:
 https://www.britannica.com/technology/C-computer-programming-language
